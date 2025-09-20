@@ -22,7 +22,7 @@
 - Framework: PHPUnit 12. Place tests in `tests/` mirroring `src/` structure.
 - File names end with `*Test.php`; test methods use `test*`/`it*` naming.
 - Cover success and failure paths; prefer data providers for matrix cases.
-- Examples: `vendor/bin/phpunit --filter SchemaTest` or a single method `--filter 'JwtTest::test_decode_invalid'`.
+- Examples: `vendor/bin/phpunit --filter SchemaTest` or a single method `--filter 'JwtTest::testItEncodesAndDecodesHs256Tokens'`.
 
 ## Commit & Pull Request Guidelines
 - Commits: short, imperative subject (“Add schema parser”, “Fix nullable handling”).
