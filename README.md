@@ -22,7 +22,7 @@ clear developer ergonomics.
 ### Installation
 
 ```bash
-composer require nyra-dev/jwt
+composer require nyra/jwt
 ```
 
 ### Usage Example
